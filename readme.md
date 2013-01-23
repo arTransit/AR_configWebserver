@@ -23,14 +23,13 @@ Apache and the WSGI module are required to run locally the applications develope
 	- Enter: pip install Flask
 1. Install apache http server:	
 	- Download from http://httpd.apache.org/download.cgi
+	- Double click to install
+	- Note without admin privileges run on port 8080
+1. Install wsgi module (http://code.google.com/p/modwsgi):
+	- Download from http://code.google.com/p/modwsgi/wiki/DownloadTheSoftware
+	- Move & rename mod_wsgi-win32-ap22py26-3.3.so to C:\Program Files (x86)\Apache Software Foundation\Apache2.2\modules\mod_wsgi.so
+	- Copy this http.conf to C:\Program Files (x86)\Apache Software Foundation\Apache2.2\conf\
+	- Note futher configuration information here http://code.google.com/p/modwsgi/wiki/QuickConfigurationGuide
 
-Install setuptools
-Download: http://pypi.python.org/pypi/setuptools
-
-run pip install Flask http://flask.pocoo.org/
-
-Install apache
-Download: http://httpd.apache.org/download.cgi
-Install modwsgi
-Download from: http://code.google.com/p/modwsgi/wiki/DownloadTheSoftware?tm=2
-Instructions: http://code.google.com/p/modwsgi/wiki/QuickConfigurationGuide
+	
+	
