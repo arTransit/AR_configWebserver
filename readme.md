@@ -25,13 +25,13 @@ Apache and the WSGI module are required to run locally the applications develope
 	- Download from http://httpd.apache.org/download.cgi
 	- Double click to install
 	- Note without admin privileges run on port 8080
-	- Test by opening http://localhost:8080
+	- Test by opening [http://localhost:8080]
 1. Install wsgi module (http://code.google.com/p/modwsgi):
 	- Download from http://code.google.com/p/modwsgi/wiki/DownloadTheSoftware
 	- Move & rename mod_wsgi-win32-ap22py26-3.3.so to C:\Program Files (x86)\Apache Software Foundation\Apache2.2\modules\mod_wsgi.so
 	- Copy this http.conf to C:\Program Files (x86)\Apache Software Foundation\Apache2.2\conf\
 	- Note futher configuration information here http://code.google.com/p/modwsgi/wiki/QuickConfigurationGuide
-	- Test by copying this myapp.wsgi to C:\AndrewRoss\Other\wsgiApps and opening http://localhost:8080/myapp
+	- Test by copying this myapp.wsgi to C:\AndrewRoss\Other\wsgiApps and opening [http://localhost:8080/myapp]
 	- Modify directory as required in http.conf
 	
 
