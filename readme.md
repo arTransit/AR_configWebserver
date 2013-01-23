@@ -17,7 +17,7 @@ Apache and the WSGI module are required to run locally the applications develope
 	- Extract archive
 	- Open a command shell in pip directory
 	- Enter: python setup.py install
-1. Install Flask http://flask.pocoo.org/:
+1. Install Flask http://flask.pocoo.org/ :
 	- Open a command shell
 	- Enter: python
 	- Enter: pip install Flask
