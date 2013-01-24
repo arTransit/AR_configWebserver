@@ -33,7 +33,9 @@ Apache and the WSGI module are required to run locally the applications develope
 	- Note futher configuration information here http://code.google.com/p/modwsgi/wiki/QuickConfigurationGuide
 	- Test by copying this myapp.wsgi to C:\AndrewRoss\Other\wsgiApps and opening [http://localhost:8080/myapp] (http://localhost:8080/myapp)
 	- Modify directory as required in http.conf
-	
+1. Update PYTHONPATH
+	- ensure windows PYTHONPATH environment variable contains directory of python code
+	- See: http://docs.python.org/2/using/windows.html
 
 
 	
